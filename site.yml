@@ -1,0 +1,10 @@
+---
+
+# configure ntp client 
+- hosts: ntp
+  remote_user: root
+
+  roles:
+    - ntp
+  tags:
+    - ntp
