@@ -5,7 +5,7 @@ Ansible 版本为2+， role支持Centos6/7
 ## 配置
 清单文件'hosts'应配置
 ```
-[swallow_servers]
+[ntp]
 192.168.123.168
 ```
 
